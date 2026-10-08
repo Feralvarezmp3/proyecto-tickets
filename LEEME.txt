@@ -1,8 +1,0 @@
-1. Copia los 35 archivos .java de src/main/java/com/proyecto/tickets/ dentro de TU paquete
-   (la carpeta donde esta tu clase con @SpringBootApplication).
-2. Cambia la primera linea "package com.proyecto.tickets;" por tu paquete real.
-   Linux/Mac/Git Bash (dentro de tu carpeta del paquete):
-     sed -i 's/^package com.proyecto.tickets;/package TU.PAQUETE;/' *.java
-3. Agrega las dependencias de build.gradle.dependencias.txt a tu build.gradle y sincroniza Gradle.
-4. Pega application.properties.txt en src/main/resources/application.properties.
-5. Ejecuta con MongoDB corriendo:  gradlew.bat bootRun   (o ./gradlew bootRun)
